@@ -124,6 +124,7 @@ Material:
     - _Bloom: 15
     - _CUSTOMDATA: 0
     - _DissolveAmount: 0
+    - _DissolveSmoothness: 0
     - _Parallax_Scale: 158.74
     - _QueueControl: 0
     - _QueueOffset: 0
