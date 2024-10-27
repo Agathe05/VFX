@@ -27,6 +27,7 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _CIRCULARDEFORMATION
+  - _DISSOLVEEFFECT
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -129,6 +130,7 @@ Material:
     - _Bloom: 15
     - _CIRCULARDEFORMATION: 1
     - _CUSTOMDATA: 0
+    - _DISSOLVEEFFECT: 1
     - _DeformationDistance: 5.53
     - _DeformationIntensity: 3
     - _DeformationSize: 10
