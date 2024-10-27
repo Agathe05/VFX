@@ -128,8 +128,10 @@ Material:
     - _Bloom: 2.84
     - _CIRCULARDEFORMATION: 0
     - _CUSTOMDATA: 0
+    - _DISSOLVEEFFECT: 0
     - _DeformationDistance: 5.53
-    - _DeformationIntensity: 10
+    - _DeformationIntensity: 0
+    - _DeformationSize: 10
     - _DissolveAmount: 0
     - _DissolveSmoothness: 0
     - _Parallax_Scale: 534.41
