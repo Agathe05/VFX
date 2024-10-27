@@ -130,7 +130,8 @@ Material:
     - _CIRCULARDEFORMATION: 1
     - _CUSTOMDATA: 0
     - _DeformationDistance: 5.53
-    - _DeformationIntensity: 15
+    - _DeformationIntensity: 3
+    - _DeformationSize: 10
     - _DissolveAmount: 0
     - _DissolveSmoothness: 0
     - _Parallax_Scale: 158.74
