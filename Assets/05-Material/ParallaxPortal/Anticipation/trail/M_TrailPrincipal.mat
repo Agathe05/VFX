@@ -25,7 +25,8 @@ Material:
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
+  m_ValidKeywords:
+  - _STARTISSTRECHED
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -80,13 +81,13 @@ Material:
     - _GlobalDissolveAmount: 0.00001
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _STARTISSTRECHED: 0
-    - _StretchIntensity: 1.5
+    - _STARTISSTRECHED: 1
+    - _StretchIntensity: 0.92
     m_Colors:
     - _Color01: {r: 0.36163503, g: 0.7807439, b: 1, a: 0}
     - _Color02: {r: 0.33843994, g: 0, b: 1, a: 0}
     - _DissolveNoiseSpeed: {r: -0.1, g: 0, b: 0, a: 0}
     - _GlobalDissolveSpeed: {r: 0, g: 0, b: 0, a: 0}
     - _StretchDissolveNoise: {r: -0.55, g: 0, b: 0, a: 0}
-    - _TextureSpeed: {r: -1, g: 0, b: 0, a: 0}
+    - _TextureSpeed: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

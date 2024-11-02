@@ -133,14 +133,14 @@ Material:
     - _DeformationDistance: 5.53
     - _DeformationIntensity: 0
     - _DeformationSize: 10
-    - _DissolveAmount: 0.45
+    - _DissolveAmount: 0
     - _DissolveSmoothness: 0
-    - _Parallax_Scale: 534.41
+    - _Parallax_Scale: 562.8
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Spherize_Offset: 0
-    - _Spherize_Strength: 5.6
-    - _Subsurface_Scale: 1.6
+    - _Spherize_Strength: -0.18
+    - _Subsurface_Scale: 3.57
     m_Colors:
     - _Alpha_Speed: {r: 0, g: 0, b: 0, a: 0}
     - _DeformationSpeed: {r: 0.1, g: 0, b: 0, a: 0}
