@@ -25,8 +25,13 @@ Material:
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_ValidKeywords:
+  - _DISSOLVEEFFECT
+  m_InvalidKeywords:
+  - _GRADIENTMAP_2
+  - _GRADIENTMAP_3
+  - _LAYER01_ACTIVEGRADIENTMAP
+  - _LAYER01_SPHERIZEEFFECT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -43,6 +48,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _DissolveTexture:
         m_Texture: {fileID: 2800000, guid: a070f20eb1a5fb64e9ccaa460fa9e6e8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer01_GradientMap:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask:
@@ -124,16 +133,24 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaIntensity: 1
+    - _Alpha_Intensity: 1
     - _Alpha_Rotation: 0.1
     - _Bloom: 6.44
     - _CIRCULARDEFORMATION: 0
     - _CUSTOMDATA: 0
-    - _DISSOLVEEFFECT: 0
+    - _Color_Intensity: 1
+    - _DISSOLVEEFFECT: 1
     - _DeformationDistance: 5.53
     - _DeformationIntensity: 10
     - _DeformationSize: 10
     - _DissolveAmount: 0
     - _DissolveSmoothness: 0
+    - _GRADIENTMAP_2: 1
+    - _GRADIENTMAP_3: 1
+    - _LAYER01_ACTIVEGRADIENTMAP: 1
+    - _LAYER01_SPHERIZEEFFECT: 1
+    - _Layer01_Spherize_Offset: 0
+    - _Layer01_Spherize_Strength: -0.5
     - _Parallax_Scale: 158.74
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -142,8 +159,16 @@ Material:
     - _Subsurface_Scale: 2
     m_Colors:
     - _Alpha_Speed: {r: 0, g: 0, b: 0, a: 0}
+    - _Alpha_Tiling: {r: 0, g: 0, b: 0, a: 0}
+    - _Color_01_1: {r: 0, g: 0, b: 0, a: 0}
+    - _Color_01_2: {r: 0, g: 0, b: 0, a: 0}
+    - _Color_02_1: {r: 0, g: 0, b: 0, a: 0}
+    - _Color_02_3: {r: 0, g: 0, b: 0, a: 0}
     - _DeformationSpeed: {r: 0.1, g: 0, b: 0, a: 0}
     - _DissolveSpeed: {r: 0, g: 0, b: 0, a: 0}
+    - _Layer01_Color_01: {r: 0, g: 0, b: 0, a: 0}
+    - _Layer01_Color_02: {r: 0, g: 0, b: 0, a: 0}
+    - _Layer01_UV_Speed: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _Speed_Mask_02: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _Speed_Mask_03: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _Speed_Mask_2: {r: 0, g: 0, b: 0, a: 0}

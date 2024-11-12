@@ -27,7 +27,11 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _DISSOLVEEFFECT
-  m_InvalidKeywords: []
+  m_InvalidKeywords:
+  - _GRADIENTMAP_2
+  - _GRADIENTMAP_3
+  - _LAYER01_ACTIVEGRADIENTMAP
+  - _LAYER01_SPHERIZEEFFECT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -75,6 +79,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _GradientMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Layer01_GradientMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -151,6 +159,7 @@ Material:
     - _AlphaClip: 0
     - _AlphaIntensity: 0.75
     - _AlphaToMask: 0
+    - _Alpha_Intensity: 1
     - _Alpha_Rotation: -1
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
@@ -160,6 +169,7 @@ Material:
     - _CUSTOMDATA: 0
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _Color_Intensity: 1
     - _Cull: 2
     - _Cutoff: 0.5
     - _DISSOLVEEFFECT: 1
@@ -174,9 +184,15 @@ Material:
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
     - _GRADIENTMAP: 0
+    - _GRADIENTMAP_2: 1
+    - _GRADIENTMAP_3: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _LAYER01_ACTIVEGRADIENTMAP: 1
+    - _LAYER01_SPHERIZEEFFECT: 1
+    - _Layer01_Spherize_Offset: 0
+    - _Layer01_Spherize_Strength: -0.5
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.005
@@ -197,13 +213,21 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _Alpha_Speed: {r: 0, g: 0, b: 0, a: 0}
+    - _Alpha_Tiling: {r: 0, g: 0, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color1: {r: 0.51977885, g: 0.11237837, b: 1.8808651, a: 0}
     - _Color2: {r: 0.5286763, g: 2.0019605, b: 2.3678749, a: 0}
+    - _Color_01_1: {r: 0, g: 0, b: 0, a: 0}
+    - _Color_01_2: {r: 0, g: 0, b: 0, a: 0}
+    - _Color_02_1: {r: 0, g: 0, b: 0, a: 0}
+    - _Color_02_3: {r: 0, g: 0, b: 0, a: 0}
     - _DeformationSpeed: {r: 0.1, g: 0, b: 0, a: 0}
     - _DissolveSpeed: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Layer01_Color_01: {r: 0, g: 0, b: 0, a: 0}
+    - _Layer01_Color_02: {r: 0, g: 0, b: 0, a: 0}
+    - _Layer01_UV_Speed: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _Speed_Mask_2: {r: 0, g: 0, b: 0, a: 0}
     - _Speed_Mask_3: {r: 0, g: 0, b: 0, a: 0}
