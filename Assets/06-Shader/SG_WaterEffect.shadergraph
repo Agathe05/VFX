@@ -1468,10 +1468,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -460.0000915527344,
-            "y": -339.33331298828127,
-            "width": 131.33334350585938,
-            "height": 119.99995422363281
+            "x": -460.0,
+            "y": -344.6666564941406,
+            "width": 131.33331298828126,
+            "height": 120.0
         }
     },
     "m_Slots": [
@@ -1543,8 +1543,8 @@
     "m_ObjectId": "0c0c2d4ce2e645839d206fb81b35932c",
     "m_Title": "VertexDisplacement",
     "m_Position": {
-        "x": 10.0,
-        "y": 10.0
+        "x": -1265.3331298828125,
+        "y": -604.7623291015625
     }
 }
 
@@ -1597,8 +1597,8 @@
         "m_Position": {
             "serializedVersion": "2",
             "x": -993.3333129882813,
-            "y": -437.33331298828127,
-            "width": 148.6666259765625,
+            "y": -440.6666564941406,
+            "width": 148.66668701171876,
             "height": 156.0
         }
     },
@@ -4232,7 +4232,7 @@
     "m_Position": {
         "serializedVersion": "2",
         "x": -833.3333129882813,
-        "y": -543.3333129882813,
+        "y": -546.6666870117188,
         "width": 200.0,
         "height": 100.66665649414063
     },
@@ -4412,10 +4412,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -691.3333740234375,
-            "y": -233.33335876464845,
+            "x": -691.3333129882813,
+            "y": -238.6666717529297,
             "width": 207.33331298828126,
-            "height": 134.6667022705078
+            "height": 134.66668701171876
         }
     },
     "m_Slots": [
@@ -4926,9 +4926,9 @@
         "m_Position": {
             "serializedVersion": "2",
             "x": -1240.0,
-            "y": -437.33331298828127,
-            "width": 153.3333740234375,
-            "height": 97.33331298828125
+            "y": -440.6666564941406,
+            "width": 156.6666259765625,
+            "height": 97.3333740234375
         }
     },
     "m_Slots": [
@@ -5807,9 +5807,9 @@
         "m_Position": {
             "serializedVersion": "2",
             "x": -823.3333129882813,
-            "y": -293.3333435058594,
-            "width": 182.0,
-            "height": 36.0
+            "y": -296.6666564941406,
+            "width": 181.99993896484376,
+            "height": 36.000030517578128
         }
     },
     "m_Slots": [
@@ -5907,10 +5907,10 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
     "m_ObjectId": "a739e3b011bf4560bedf11b8bc959666",
     "m_Id": 1,
-    "m_DisplayName": "UV",
+    "m_DisplayName": "Out",
     "m_SlotType": 1,
     "m_Hidden": false,
-    "m_ShaderOutputName": "UV",
+    "m_ShaderOutputName": "Out",
     "m_StageCapability": 3,
     "m_Value": {
         "x": 0.0,
@@ -6473,10 +6473,10 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
     "m_ObjectId": "be601fbb1c9c48ccb48483ff35f1c7b3",
     "m_Id": 1,
-    "m_DisplayName": "UV",
+    "m_DisplayName": "Out",
     "m_SlotType": 1,
     "m_Hidden": false,
-    "m_ShaderOutputName": "UV",
+    "m_ShaderOutputName": "Out",
     "m_StageCapability": 3,
     "m_Value": {
         "x": 0.0,
@@ -6757,7 +6757,7 @@
         "m_Position": {
             "serializedVersion": "2",
             "x": -823.3333129882813,
-            "y": -437.33331298828127,
+            "y": -440.6666564941406,
             "width": 187.33331298828126,
             "height": 144.0
         }
@@ -6998,7 +6998,7 @@
         "m_Position": {
             "serializedVersion": "2",
             "x": -611.3333129882813,
-            "y": -399.33331298828127,
+            "y": -404.6666564941406,
             "width": 127.33331298828125,
             "height": 120.0
         }
@@ -7476,10 +7476,10 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
     "m_ObjectId": "e15f70bca19147148d599275c187994f",
     "m_Id": 1,
-    "m_DisplayName": "UV",
+    "m_DisplayName": "Out",
     "m_SlotType": 1,
     "m_Hidden": false,
-    "m_ShaderOutputName": "UV",
+    "m_ShaderOutputName": "Out",
     "m_StageCapability": 3,
     "m_Value": {
         "x": 0.0,

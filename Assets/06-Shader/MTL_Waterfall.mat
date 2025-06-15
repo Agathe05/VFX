@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4218531110234291656
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MTL_Waterfall
+  m_Shader: {fileID: -6465566751694194690, guid: 29ae5751150ee8042be01fa9d6806239,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Triplanar_5935ca8bce3b418d8e68a80bcda24754_Texture_1_Texture2D:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Bas: 2.03
+    - _BorderFoamEnd: 0.078
+    - _BorderFoamStart: 0.75
+    - _Depth: 10
+    - _Float: 401.11
+    - _Float_1: 6.65
+    - _FoamIntensity: 0.13
+    - _FoamNoiseScale_Test: 136.7
+    - _FoamNoiseSpeed: 3
+    - _FoamStep_Test: 0.001
+    - _Haut: 3.74
+    - _NoiseIntensity: 0.74
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _RefractionNoiseScale: 35.3
+    - _RefractionStrength: 0.4
+    - _height: 9.3
+    m_Colors:
+    - _BorderFoamNoiseSpeed: {r: 0.1, g: 0, b: 0, a: 0}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 0.0627451}
+    - _FoamNoiseSpeed_Test: {r: 0, g: 0.3, b: 0, a: 0}
+    - _FoamSpeed: {r: 0.4, g: 0, b: 0, a: 0}
+    - _NoiseColor: {r: 1, g: 1, b: 1, a: 0.1764706}
+    - _PrimaryColor: {r: 0.14150926, g: 0.5975161, b: 1, a: 0.57254905}
+    - _RefractionSpeed: {r: -0.1, g: -0.1, b: 0, a: 0}
+    - _SecondaryColor: {r: 0, g: 0.84446096, b: 1, a: 0.5882353}
+    - _Speed: {r: -1, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
